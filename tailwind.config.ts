@@ -66,7 +66,6 @@ const config = {
   },
   plugins: [
     require("tailwindcss-animate"),
-    require("@tailwindcss/typography"),
     plugin(function ({ addVariant }) {
       addVariant("trigger", [
         "@media (min-width: 976px) { &:hover }",
